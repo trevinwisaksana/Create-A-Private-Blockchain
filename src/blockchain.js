@@ -198,7 +198,7 @@ class Blockchain {
             if(stars.length == 0){
                 resolve(stars);
             } else {
-                reject("There is star asociated with this address ${address}");
+                reject("There is no star asociated with this address ${address}");
             }
         });
     }
